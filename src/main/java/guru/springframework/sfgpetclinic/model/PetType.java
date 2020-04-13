@@ -5,10 +5,6 @@
  */
 package guru.springframework.sfgpetclinic.model;
 
-/**
- *
- * @author None
- */
 class PetType
 {
     private String name;
