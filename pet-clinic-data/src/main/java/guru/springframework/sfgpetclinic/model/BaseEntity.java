@@ -5,18 +5,24 @@
  */
 package guru.springframework.sfgpetclinic.model;
 
-class PetType extends BaseEntity
-{
-    private String name;
+import java.io.Serializable;
 
-    public String getName()
+/**
+ *
+ * @author None
+ */
+public class BaseEntity implements Serializable
+{
+    private Long id;
+
+    public Long getId()
     {
-        return name;
+        return id;
     }
 
-    public void setName(String name)
+    public void setId(Long id)
     {
-        this.name = name;
+        this.id = id;
     }
     
 }
